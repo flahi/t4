@@ -1,0 +1,34 @@
+body {
+    background-color: #303030;
+    color: white;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid white;
+    width: 80%;
+    margin: auto;
+  }
+  
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    text-align: center;
+}
+  
+tr:first-child {
+    border: 2px solid #fff;
+}
+  
+tr:not(:first-child) {
+    border: none;
+}
+
+h1 {
+    width: 10%;
+    margin: auto;
+    padding: 36px 36px;
+}
